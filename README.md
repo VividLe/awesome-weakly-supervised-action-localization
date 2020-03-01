@@ -204,9 +204,3 @@ Papers and Results of Temporal Action Detection &amp; Spatio-Temporal Action Det
   [[paper](https://arxiv.org/pdf/1903.02874.pdf)]
   [[project](https://coin-dataset.github.io/)]
 
-
-
-
-## Benchmark
-
-
