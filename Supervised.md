@@ -27,7 +27,7 @@ Papers and Results of Temporal Action Localization
 |   CTAP      |    -  	|    -  	|    -  	|    -  	|   29.9 	|    -  	|    -     |      Y      |     -     |
 |  SS-TAD     |    -  	|    -  	|   45.7 	|    -  	|   29.2 	|    -  	|   9.6    |      Y      |701 fps(GTX Titan X (Maxwell))|
 |    SSN      |   60.3 	|   56.2 	|   50.6 	|   40.8 	|   29.1 	|    -  	|    -     |      Y      |     -     |
-|   R-C3D     |   54.5 	|   51.5 	|   44.8 	|   35.6 	|   28.9 	|    -  	|    -     |      Y      |569 fps (GTX Titan X (Maxwell))  <br>1030 fps (Titan X Pascal)|
+|   R-C3D     |   54.5 	|   51.5 	|   44.8 	|   35.6 	|   28.9 	|    -  	|    -     |      Y      |569 fps|
 |    TAG      |   64.1 	|   57.7 	|   48.7 	|   39.8 	|   28.2 	|    -  	|    -     |      Y      |     -     |
 |    TPC      |    -  	|    -  	|   44.1 	|   37.1 	|   28.2 	|   20.6 	|   12.7   |      Y      |250 fps (GTX Titan X)|
 |   TURN      |   54.0 	|   50.9 	|   44.1 	|   34.9 	|   25.6 	|    -  	|    -     |      Y      |129.4 fps (GTX Titan X)|
@@ -43,9 +43,11 @@ Papers and Results of Temporal Action Localization
 |  G-TAD      |   -   	|    -   	|   54.5	|    47.6	|   40.2 	|   30.8 	|   23.4   |      Y      |     -     |
 |  PTAL-ETP   |   -   	|    -   	|   48.2	|    42.4	|   34.2 	|   23.4 	|   13.9   |      Y      |     -     |
 |  CTR_AL     |   -   	|    -   	|   53.9	|    50.7	|   45.4 	|   38.0 	|   28.5   |      Y      |     -     |
+| LS-TD       | arXiv  |-|63.5 |61.0 |56.7 |50.6 |42.6 |32.5 |21.4 |-    |-    |-    |    -     |
+| SRG         | arXiv  |-|-    |-    |54.5 |46.9 |39.1 |31.4 |22.2 |-    |-    |-    |    -     |
 
 
-**Performance on ActivityNet dataset.**
+**Performance on ActivityNet v1.3 dataset.**
 - The left half is score on ActivityNet v1.3 validation dataset. The right half is score on ActivityNet v1.3 testing dataset. 
 - `Deep Learning`: deep learning related method.
 
@@ -66,7 +68,11 @@ Papers and Results of Temporal Action Localization
 |   R-C3D     |	26.80 	|	 -      	|	 -  	    |	12.70   	|	 -  	    |	 -  	    |	 -      	|	13.10    	|      Y      |569 fps (GTX Titan X (Maxwell))  <br>1030 fps (Titan X Pascal)|
 | G-TAD       |  50.36  |   34.6    |  9.02     |  34.09    |  -        |     -     |	 -      	|	-         |      Y      | -     |
 | CTR_AL      |  43.47  |   33.91   |  9.21     |  30.12    |  -        |     -     |	 -      	|	-         |      Y      | -     |
+| SRG         |  46.53  |    -    |    -    |    -     |    -    |  29.98 |    -    |    -    |   -    |  4.83 |  29.72 |  -    |     -    |
 
+
+**Performance on ActivityNet v1.2 dataset.**
+|   LS-TD     |  50.4   | -       |   -     |  -       |    -    |  34.9  |  -      |   -     |  -     |   8.0 |  33.6  | -     |     -    |
 
 ### Temporal Action Localization
 * **TGM:** AJ Piergiovanni, Michael S. Ryoo.<br />
@@ -224,3 +230,11 @@ Papers and Results of Temporal Action Localization
 * **CTR_AL**Peisen Zhao1, Lingxi Xie2, Chen Ju1, Ya Zhang1, Qi Tian.<br />
   "Constraining Temporal Relationship for Action Localization"ArXiv(2019)
   [[paper](https://arxiv.org/pdf/2002.07358.pdf)]
+
+* **SRG**Hyunjun Eun, Sumin Lee, Jinyoung Moon, Jongyoul Park, Chanho Jung, Changick Kim.<br />
+  "SRG: Snippet Relatedness-based Temporal Action Proposal Generator"Arxiv(2019)
+  [[paper](https://arxiv.org/pdf/1911.11306.pdf)]
+
+* **LS-TD**Yuan Zhou, Hongru Li, Sun-Yuan Kung, Life Fellow.<br />
+  "Temporal Action Localization using Long Short-Term Dependency"Arxiv(2019)
+  [[paper](https://arxiv.org/pdf/1911.01060.pdf)]
