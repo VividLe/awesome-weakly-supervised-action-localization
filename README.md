@@ -4,36 +4,40 @@ Papers and Results of Temporal Action Detection &amp; Spatio-Temporal Action Det
 
 **Weakly Supervised Performance on THUMOS'14 dataset.**
 
-- The detectors are ordered by the mAP with threshold 0.5.
+- The detectors are sorted by the mAP with threshold 0.5.
+- "c" indicates whether release code, yes (Y) or no (N).
+- "e" indicates the evaluation code, THUMOS (T), ActivityNet (A) or implemented by themselves.
 
-|  Detector   |   Pub  |c| 0.1 | 0.2 | 0.3 |0.4  | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |avg  |   info   |
-| :---------: |:------:|-|:---:|:----|:----|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
-| BaSNet-I3D  | AAAI20 |Y| 58.2|52.3 |44.6 |36.0 |27.0 |18.6 |10.4 |3.9  |0.5  | -   |    -     |
-| BaSNet-UNT  | AAAI20 |Y| 56.2|50.3 |42.8 |34.7 |25.1 |17.1 |9.3  |3.7  |0.5  | -   |    -     |
-|   WSBM      | ICCV19 |N| 60.4|56.0 |46.6 |37.5 |26.8 |17.6 |9.0  |3.3  |0.4  | -   |    -     |
-|   3C-Net    | ICCV19 |Y| 59.1|53.5 |44.2 |34.1 |26.6 |  -  |8.1  |  -  | -   | -   |    -     |
-|    ASSG     | CVPR19 |N| 65.6|59.4 |50.4 |38.7 |25.4 |15.0 |6.6  |  -  |  -  | -   |    -     |
-|    TSM      | ICCV19 |N|  -  | -   |39.5 |31.9 |24.5 |13.8 |7.1  |  -  |  -  |23.4 |    -     |
-|  WS-CENet   | ICCV19 |N|  -  | -   |37.0 |30.9 |23.9 |13.9 |7.1  |  -  |  -  | -   |    -     |
-|  CMCS-I3D   | CVPR19 |Y| 57.4|50.8 |41.2 |32.1 |23.1 |15.0 |7.0  |  -  | -   | -   |report avg-mAP|
-|  CMCS-UNT   | CVPR19 |Y| 53.5|46.8 |37.5 |29.1 |19.9 |12.3 |6.0  |  -  | -   | -   |    -     |
-|  STARNet    | AAAI19 |N|68.8 |60.0 |48.7 |34.7 |23.0 |-    |-    |  -  |  -  |-    |    -     |
-|  W-TALC     | ECCV18 |Y|55.2 |49.6 |40.1 |31.1 |22.8 |-    |-    |  -  |  -  |7.6  |    -     |
-|  AutoLoc    | ECCV18 |Y|-    |-    |35.8 |29.0 |21.2 |13.4 |5.8  |  -  |  -  |-    |    -     |
-|  MAAN       | ICLR19 |Y|59.8 |50.8 |41.1 |30.6 |20.3 |12.0 |6.9  |2.6  |0.2  |94.1 |    -     |
-|  LTSR       | AAAI19 |N|55.9 |46.9 |38.3 |28.1 |18.6 |11.0 |5.59 |2.19 |0.29 |-    |    -     |
-|  STPN       | CVPR18 |I|52.0 |44.7 |35.5 |25.8 |16.9 |9.9  |4.3  |1.2  |0.1  |-    |    -     |
-|  CPMN       | ACCV18 |N|47.1 |41.6 |32.8 |24.7 |16.1 |10.1 |5.5  |-    |-    |-    |    -     |
-|  S-O-C      | ACM18  |N|45.8 |39.0 |31.1 |22.5 |15.9 |-    |-    |-    |-    |-    |    -     |
-|UntrimmedNets| CVPR17 |Y|44.4 |37.7 |28.2 |21.1 |13.7 |-    |-    |-    |-    |-    |    -     |
-|  H&S        | ICCV17 |Y|36.44|27.84|19.49|12.66|6.84 |-    |-    |-    |-    |-    |    -     |
-| WSTAL       | arXiv  |-|62.3 |-    |46.8 |-    |29.6 |-    |9.7  |-    |-    |-    |    -     |
-|LPAT-I3D+TEM | arXiv  |-|-    |-    |46.9 |37.4 |28.0 |16.6 |9.2  |-    |-    |27.6 |    -     |
-| LPAT-I3D    | arXiv  |-|-    |-    |46.7 |37.5 |27.9 |17.6 |9.2  |-    |-    |27.6 |    -     |
-| LPAT-U      | arXiv  |-|-    |-    |39.9 |31.5 |22.6 |14.2 |7.9  |-    |-    |27.6 |    -     |
-|RefineLoc-I3D| arXiv  |-|-    |-    |40.8 |-    |23.1 |-    |5.3  |-    |-    |-    |    -     |
-|RefineLoc-TSN| arXiv  |-|-    |-    |36.1 |-    |22.6 |-    |5.8  |-    |-    |-    |    -     |
-| WSGN        | arXiv  |-|51.1 |44.4 |34.9 |26.3 |18.1 |11.6 |6.5  |-    |-    |-    |    -     |
+
+|  Detector   |   Pub  |c|e| 0.1 | 0.2 | 0.3 |0.4  | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |avg  |   info   |
+| :---------: |:------:|-|-|:---:|:----|:----|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
+| BaSNet-I3D  | AAAI20 |Y|A| 58.2|52.3 |44.6 |36.0 |27.0 |18.6 |10.4 |3.9  |0.5  | -   |    -     |
+| BaSNet-UNT  | AAAI20 |Y|A| 56.2|50.3 |42.8 |34.7 |25.1 |17.1 |9.3  |3.7  |0.5  | -   |    -     |
+|   WSBM      | ICCV19 |N|A| 60.4|56.0 |46.6 |37.5 |26.8 |17.6 |9.0  |3.3  |0.4  | -   |    -     |
+|   3C-Net    | ICCV19 |Y|I| 59.1|53.5 |44.2 |34.1 |26.6 |  -  |8.1  |  -  | -   | -   |    -     |
+|    ASSG     | ACM 19 |N| | 65.6|59.4 |50.4 |38.7 |25.4 |15.0 |6.6  |  -  |  -  | -   |    -     |
+|    TSM      | ICCV19 |N|T|  -  | -   |39.5 |31.9 |24.5 |13.8 |7.1  |  -  |  -  |23.4 |    -     |
+|  WS-CENet   | ICCV19 |N|T|  -  | -   |37.0 |30.9 |23.9 |13.9 |7.1  |  -  |  -  | -   |    -     |
+|  CMCS-I3D   | CVPR19 |Y|T| 57.4|50.8 |41.2 |32.1 |23.1 |15.0 |7.0  |  -  | -   | -   |report avg-mAP|
+|  CMCS-UNT   | CVPR19 |Y|T| 53.5|46.8 |37.5 |29.1 |19.9 |12.3 |6.0  |  -  | -   | -   |    -     |
+|  STARNet    | AAAI19 |N|A|68.8 |60.0 |48.7 |34.7 |23.0 |-    |-    |  -  |  -  |-    |    -     |
+|  W-TALC     | ECCV18 |Y|I|55.2 |49.6 |40.1 |31.1 |22.8 |-    |-    |  -  |  -  |7.6  |    -     |
+|  AutoLoc    | ECCV18 |Y|T|-    |-    |35.8 |29.0 |21.2 |13.4 |5.8  |  -  |  -  |-    |    -     |
+|  MAAN       | ICLR19 |Y|A|59.8 |50.8 |41.1 |30.6 |20.3 |12.0 |6.9  |2.6  |0.2  |94.1 |    -     |
+|  LTSR       | AAAI19 |N|T|55.9 |46.9 |38.3 |28.1 |18.6 |11.0 |5.59 |2.19 |0.29 |-    |    -     |
+| WSGN        | WACV20 |-|T|51.1 |44.4 |34.9 |26.3 |18.1 |11.6 |6.5  |-    |-    |-    |    -     |
+|  STPN       | CVPR18 |I|A|52.0 |44.7 |35.5 |25.8 |16.9 |9.9  |4.3  |1.2  |0.1  |-    |    -     |
+|  CPMN       | ACCV18 |N|T|47.1 |41.6 |32.8 |24.7 |16.1 |10.1 |5.5  |-    |-    |-    |    -     |
+|  S-O-C      | ACM18  |N|T|45.8 |39.0 |31.1 |22.5 |15.9 |-    |-    |-    |-    |-    |    -     |
+|UntrimmedNets| CVPR17 |Y|T|44.4 |37.7 |28.2 |21.1 |13.7 |-    |-    |-    |-    |-    |    -     |
+|  H&S        | ICCV17 |Y|T|36.44|27.84|19.49|12.66|6.84 |-    |-    |-    |-    |-    |    -     |
+| WSTAL       | arXiv  |-| |62.3 |-    |46.8 |-    |29.6 |-    |9.7  |-    |-    |-    |    -     |
+|LPAT-I3D+TEM | arXiv  |-| |-    |-    |46.9 |37.4 |28.0 |16.6 |9.2  |-    |-    |27.6 |    -     |
+| LPAT-I3D    | arXiv  |-| |-    |-    |46.7 |37.5 |27.9 |17.6 |9.2  |-    |-    |27.6 |    -     |
+| LPAT-U      | arXiv  |-| |-    |-    |39.9 |31.5 |22.6 |14.2 |7.9  |-    |-    |27.6 |    -     |
+|RefineLoc-I3D| arXiv  |-|T|-    |-    |40.8 |-    |23.1 |-    |5.3  |-    |-    |-    |    -     |
+|RefineLoc-TSN| arXiv  |-|T|-    |-    |36.1 |-    |22.6 |-    |5.8  |-    |-    |-    |    -     |
+
 
 
 
@@ -87,7 +91,7 @@ Papers and Results of Temporal Action Detection &amp; Spatio-Temporal Action Det
   [[code](https://github.com/Finspire13/CMCS-Temporal-Action-Localization)]
 
 * **ASSG:** Chengwei Zhang, Yunlu Xu, Zhanzhan Cheng, Yi Niu, Shiliang, Pu Fei Wu, Futai Zou.<br />
-  "Adversarial Seeded Sequence Growing for Weakly-Supervised Temporal Action Localization" CVPR (2019). 
+  "Adversarial Seeded Sequence Growing for Weakly-Supervised Temporal Action Localization" ACM MM (2019). 
   [[paper](https://arxiv.org/pdf/1908.02422.pdf)]
 
 * **AutoLoc:**Zheng Shou, Hang Gao, Lei Zhang, KazuyukiMiyazawa, Shih-Fu Chang.<br />
@@ -161,7 +165,7 @@ Papers and Results of Temporal Action Detection &amp; Spatio-Temporal Action Det
   [[paper](https://arxiv.org/pdf/1904.00227.pdf)]
 
 * **WSGN:**Basura Fernando, Cheston Tan Yin Chet.<br />
-  "Weakly Supervised Gaussian Networks for Action Detection"Arxiv(2019)
+  "Weakly Supervised Gaussian Networks for Action Detection" WACV(2020)
   [[paper](https://basurafernando.github.io/papers/wacv2020_wsgn.pdf)]
 
 * **WSTAL**Ashraful Islam, Richard J. Radke.<br />
