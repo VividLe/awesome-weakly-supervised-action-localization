@@ -62,7 +62,7 @@ Papers and Results of Temporal Action Detection &amp; Spatio-Temporal Action Det
 | :---------: |:------:|-|:---:|:---:|:---:|:---:|:---:| :------: |
 | BaSNet-I3D  | AAAI20 |Y|34.5 |22.5 |4.9  |22.2 | -   |     -    |
 | WSBM        | ICCV19 |N|36.4 |19.2 | 2.9 |-    | -   |     -    |
-| ASSG        | CVPR19 |N|32.3 |20.1 | 4.0 |-    | -   |     -    |
+| ASSG        | ACM 19 |N|32.3 |20.1 | 4.0 |-    | -   |     -    |
 | TSM         | ICCV19 |N|30.0 |19.0 | 4.5 |-    | -   |     -    |
 | CMCS        | CVPR19 |Y|34.0 |20.9 | 5.7 |21.2 | -   |     -    |
 | STARNet     | AAAI19 |N|31.1 |18.8 | 4.7 |-    | -   |     -    |
