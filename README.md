@@ -17,7 +17,7 @@ Papers and Results of Temporal Action Detection &amp; Spatio-Temporal Action Det
 |   3C-Net    | ICCV19 |Y|I| 59.1|53.5 |44.2 |34.1 |26.6 |  -  |8.1  |  -  | -   | -   |    -     |
 |    ASSG     | ACM 19 |N| | 65.6|59.4 |50.4 |38.7 |25.4 |15.0 |6.6  |  -  |  -  | -   |    -     |
 |    TSM      | ICCV19 |N|T|  -  | -   |39.5 |31.9 |24.5 |13.8 |7.1  |  -  |  -  |23.4 |    -     |
-|  WS-CENet   | ICCV19 |N|T|  -  | -   |37.0 |30.9 |23.9 |13.9 |7.1  |  -  |  -  | -   |    -     |
+|  CleanNet   | ICCV19 |N|T|  -  | -   |37.0 |30.9 |23.9 |13.9 |7.1  |  -  |  -  | -   |    -     |
 |  CMCS-I3D   | CVPR19 |Y|T| 57.4|50.8 |41.2 |32.1 |23.1 |15.0 |7.0  |  -  | -   | -   |report avg-mAP|
 |  CMCS-UNT   | CVPR19 |Y|T| 53.5|46.8 |37.5 |29.1 |19.9 |12.3 |6.0  |  -  | -   | -   |    -     |
 |  STARNet    | AAAI19 |N|A|68.8 |60.0 |48.7 |34.7 |23.0 |-    |-    |  -  |  -  |-    |    -     |
@@ -48,7 +48,7 @@ Papers and Results of Temporal Action Detection &amp; Spatio-Temporal Action Det
 | CMCS        | CVPR19 |Y|36.8 |-    |-    |-    | -   |22.0 |-    |-    |-    | 5.6 | 22.4|   - |     -    |
 | 3C-Net      | ICCV19 |Y|35.4 |   - | -   |  -  | -   |22.9 |  -  | -   | -   | 8.5 | 21.1|   - |     -    |
 | TSM         | ICCV19 |N|28.3 |26.0 |23.6 |21.2 | 18.9|17.0 |14.0 |11.1 |7.5  | 3.5 | -   |   - |     -    |
-| WS-CENet    | ICCV19 |N|37.1 |33.4 |29.9 |26.7 | 23.4|20.3 |17.2 |13.9 |9.2  | 5.0 | 21.6|   - |     -    |
+| CleanNet    | ICCV19 |N|37.1 |33.4 |29.9 |26.7 | 23.4|20.3 |17.2 |13.9 |9.2  | 5.0 | 21.6|   - |     -    |
 | W-TALC      | ECCV18 |Y|37.0 |-    |-    |-    | 14.6|-    |-    |-    |-    | -   | 18.0|   - |     -    |
 | AutoLoc     | ECCV18 |Y|27.3 |24.9 |22.5 |19.9 | 17.5|15.1 |13.0 |10.0 |6.8  | 3.3 | 16.0| -   |     -    |
 |RefineLoc-I3D| arXiv  |-|38.7 |-    |-    |-    | -   |22.6 |-    |-    |-    | 5.5 | 23.2| -   |     -    |
@@ -138,7 +138,7 @@ Papers and Results of Temporal Action Detection &amp; Spatio-Temporal Action Det
   "Weakly-supervised Action Localization with Background Modeling"ICCV(2019).
   [[paper](https://arxiv.org/pdf/1908.06552.pdf)]
 
-* **WS-CENet:**Ziyi Liu, Le Wang1∗ Qilin Zhang, Zhanning Gao, Zhenxing Niu, Nanning Zheng, Gang Hua.<br />
+* **CleanNet:**Ziyi Liu, Le Wang1∗ Qilin Zhang, Zhanning Gao, Zhenxing Niu, Nanning Zheng, Gang Hua.<br />
   "Weakly Supervised Temporal Action Localization through Contrast based Evaluation Networks"ICCV(2019).
   [[paper](https://qilin-zhang.github.io/_pages/pdfs/Weakly_Supervised_Temporal_Action_Localization_through_Contrast_based_Evaluation_Networks.pdf)]
 
