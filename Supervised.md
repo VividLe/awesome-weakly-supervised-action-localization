@@ -19,6 +19,7 @@ Papers and Results of Temporal Action Localization
 |   TAL-Net   |   59.8 	|   57.1 	|   53.2 	|   48.5 	|   42.8 	|   33.8 	|   20.8   |      Y      |     -     |
 |    FRTS     |    -  	|    -  	|   53.5 	|   50.2 	|   44.2 	|   33.9 	|   22.7   |      Y      |     -     |
 |    GTAN     |   69.1 	|   63.7 	|   57.8 	|   47.2 	|   38.8 	|    -   	|    -     |      Y      |     -     |
+|    AGCN     |   59.3 	|   59.6 	|   57.1 	|   51.6 	|   38.6 	|    28.9 	|   17.0   |      Y      |     -     |
 |    MGG      |    -  	|    -  	|   53.9 	|   46.8 	|   37.4 	|   29.5 	|   21.3   |      Y      |     -     |
 |    BSN      |    -  	|    -  	|   53.5 	|   45.0 	|   36.9 	|   28.4 	|   20.0   |      Y      |     -     |
 |    FSN      |    -  	|    -  	|   51.8 	|   41.5 	|   32.1 	|   22.9 	|   14.7   |      Y      |     -     |
@@ -64,6 +65,7 @@ Papers and Results of Temporal Action Localization
 |    CDC      |	45.30 	|	  26.00 	|	0.20 	    |	23.80   	|	 -      	|	 -      	|	 -      	|	 -  	    |      Y      |500 fps (GTX Titan X)|
 |    TCN      |	36.44 	|	  21.15 	|	3.90 	    |	 -  	    |	37.49   	|	23.47   	|	4.47    	|	23.58	    |      Y      | -     |
 |   TAL-Net   |	38.23 	|	  18.30 	|	1.30 	    |	20.22   	|	 -  	    |	 -  	    |	 -  	    |	 -  	    |      Y      | -     |
+|   AGCN   |	30.4 	|	   -  		|	 -  	    |	 -  	   	|	 -  	    |	 -  	    |	 -  	    |	 -  	    |      Y      | -     |
 |    SCC      |	   -  	|	 -      	|	 -  	    |	 -  	    |	39.90    	|	18.70   	|	4.70    	|	19.30	    |      Y      |  35.9 fps  |
 |   R-C3D     |	26.80 	|	 -      	|	 -  	    |	12.70   	|	 -  	    |	 -  	    |	 -      	|	13.10    	|      Y      |569 fps (GTX Titan X (Maxwell))  <br>1030 fps (Titan X Pascal)|
 | G-TAD       |  50.36  |   34.6    |  9.02     |  34.09    |  -        |     -     |	 -      	|	-         |      Y      | -     |
@@ -103,6 +105,10 @@ Papers and Results of Temporal Action Localization
   "Gaussian Temporal Awareness Networks for Action Localization." CVPR (2019 **oral**). 
   [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Long_Gaussian_Temporal_Awareness_Networks_for_Action_Localization_CVPR_2019_paper.pdf)]
 
+* **AGCN:** Jun Li, Xianglong Liu, Zhuofan Zong, Wanru Zhao, Mingyuan Zhang, Jingkuan Song.<br />
+  "Graph Attention based Proposal 3D ConvNets for Action Detection." AAAI (2020).
+  [[paper](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-LiJ.1424.pdf)]
+
 * **MGG:** Yuan Liu, Lin Ma, Yifeng Zhang, Wei Liu, Shih-Fu Chang.<br />
   "Multi-granularity Generator for Temporal Action Proposal." CVPR (2019). 
   [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Multi-Granularity_Generator_for_Temporal_Action_Proposal_CVPR_2019_paper.pdf)]
@@ -117,8 +123,8 @@ Papers and Results of Temporal Action Localization
   [[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Chao_Rethinking_the_Faster_CVPR_2018_paper.pdf)]
   
  * **FRTS:** Tingting Xie, Xiaoshan Yang, Tianzhu Zhang, Changsheng Xu, Ioannis Patras.<br />
-  "Exploring Feature Representation and Training strategies in Temporal Action Localization." ICIP (2019). 
-  [[paper](https://arxiv.org/pdf/1905.10608.pdf)]
+    "Exploring Feature Representation and Training strategies in Temporal Action Localization." ICIP (2019). 
+    [[paper](https://arxiv.org/pdf/1905.10608.pdf)]
 
 * **BSN:** Tianwei Lin, Xu Zhao, Haisheng Su, Chongjing Wang, Ming Yang.<br />
   "BSN: Boundary Sensitive Network for Temporal Action Proposal Generation." ECCV (2018). 
@@ -215,9 +221,9 @@ Papers and Results of Temporal Action Localization
   [[code](https://github.com/vdavid70619/TCN)]
   
  * **DAP:** Victor Escorcia, Fabian Caba Heilbron, Juan Carlos Niebles, Bernard Ghanem.<br />
-  "DAPs: Deep Action Proposals for Action Understanding." ECCV (2016). 
-  [[paper](https://ivul.kaust.edu.sa/Documents/Publications/2016/DAPs%20Deep%20Action%20Proposals%20for%20Action%20Understanding.pdf)]
-  [[code](https://github.com/escorciav/daps)] 
+    "DAPs: Deep Action Proposals for Action Understanding." ECCV (2016). 
+    [[paper](https://ivul.kaust.edu.sa/Documents/Publications/2016/DAPs%20Deep%20Action%20Proposals%20for%20Action%20Understanding.pdf)]
+    [[code](https://github.com/escorciav/daps)] 
 
 * **G-TAD**Mengmeng Xu, Chen Zhao, David S. Rojas, Ali Thabet, Bernard Ghanem Visual Computing Center.<br />
   "G-TAD: Sub-Graph Localization for Temporal Action Detection" ArXiv(2019)
