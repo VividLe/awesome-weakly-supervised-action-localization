@@ -8,7 +8,7 @@ Papers and Results of Temporal Action Localization
 - The detectors are ordered by the mAP with threshold 0.5.
 - `Deep Learning`: deep learning related method.
 
-|  Detector   |   0.1   |    0.2  |    0.3  |    0.4  |   0.5   |    0.6  |    0.7   |Deep Learning|Speed      |
+|  Detector   |   0.1   |    0.2  |    0.3  |    0.4  |   0.5   |    0.6  |    0.7   |Deep Learning|Comment      |
 | :---------: | :-----: |:-------:|:-------:|:-------:|:-------:|:-------:| :------: | :--------:  | :--:      |
 |     TGM     |    -  	|    -  	|    -  	|    -  	|   53.5 	|    -  	|    -     |      Y      |     -     |
 |   C-TCN     |   72.2 	|   71.4 	|   68.0 	|   62.3 	|   52.1 	|    -   	|    -   	 |      Y      |     -     |
@@ -46,6 +46,7 @@ Papers and Results of Temporal Action Localization
 |  CTR_AL     |   -   	|    -   	|   53.9	|    50.7	|   45.4 	|   38.0 	|   28.5   |      Y      |     -     |
 | LS-TD       | arXiv  |-|63.5 |61.0 |56.7 |50.6 |42.6 |32.5 |21.4 |-    |-    |-    |    -     |
 | SRG         | arXiv  |-|-    |-    |54.5 |46.9 |39.1 |31.4 |22.2 |-    |-    |-    |    -     |
+| IDU         | arXiv  |-|-    |-    |- |- |- |- |- |-    |-    |Under a different metric    |    -     |
 
 
 **Performance on ActivityNet v1.3 dataset.**
@@ -244,3 +245,7 @@ Papers and Results of Temporal Action Localization
 * **LS-TD**Yuan Zhou, Hongru Li, Sun-Yuan Kung, Life Fellow.<br />
   "Temporal Action Localization using Long Short-Term Dependency"Arxiv(2019)
   [[paper](https://arxiv.org/pdf/1911.01060.pdf)]
+
+* **IDU** Eun, Hyunjun and Moon, Jinyoung and Park, Jongyoul and Jung, Chanho and Kim, Changick.<br />
+  "Learning to Discriminate Information for Online Action Detection" CVPR(2020)
+  [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Eun_Learning_to_Discriminate_Information_for_Online_Action_Detection_CVPR_2020_paper.pdf)]
