@@ -10,6 +10,8 @@ Papers and Results of Temporal Action Localization
 
 |  Detector   |   Pub  |c|e| 0.1 | 0.2 | 0.3 |0.4  | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |avg  |   info   |
 | :---------: |:------:|-|-|:---:|:----|:----|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
+| ACL  | CVPR20 |N|A| - | - |46.9 |38.9 |30.1 |19.8 |10.4 | -  | -  | -   | Report unsupervised performance as well |
+| ActionBytes  | CVPR20 |N|A| - | - |43.0 |37.5 |29.0 | - |9.5 | -  | -  | -   | - |
 | DGAM  | CVPR20 |Y|A| 60.0|54.2 |46.8 |38.2 |28.8 |19.8 |11.4 |3.6  |0.4  | -   |    -     |
 | BaSNet-I3D  | AAAI20 |Y|A| 58.2|52.3 |44.6 |36.0 |27.0 |18.6 |10.4 |3.9  |0.5  | -   |    -     |
 | BaSNet-UNT  | AAAI20 |Y|A| 56.2|50.3 |42.8 |34.7 |25.1 |17.1 |9.3  |3.7  |0.5  | -   |    -     |
@@ -76,6 +78,17 @@ Papers and Results of Temporal Action Localization
 
 
 ### Weakly Supervised Temporal Action Localization
+Learning from trimmed videos.
+* **A2CL-PT:** Kyle Min, Jason J. Corso.<br />
+  "Adversarial Background-Aware Loss for Weakly-supervised Temporal Activity Localization." ECCV 2020. 
+  [[paper](https://arxiv.org/pdf/2007.06643.pdf)]
+  [[code](https://github.com/MichiganCOG/A2CL-PT)]
+* **ACL:** Guoqiang Gong, Xinghan Wang, Yadong Mu, Qi Tian.<br />
+  "Learning Temporal Co-Attention Models for Unsupervised Video Action Localization." CVPR 2020, oral. 
+  [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Gong_Learning_Temporal_Co-Attention_Models_for_Unsupervised_Video_Action_Localization_CVPR_2020_paper.pdf)]
+* **ActoinBytes:** Mihir Jain1, Amir Ghodrati, Cees G. M. Snoek.<br />
+  "ActionBytes: Learning from Trimmed Videos to Localize Actions." CVPR  (2020). 
+  [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jain_ActionBytes_Learning_From_Trimmed_Videos_to_Localize_Actions_CVPR_2020_paper.pdf)]
 * **DGAM:** Baifeng Shi, Qi Dai, Yadong Mu, Jingdong Wang.<br />
   "Weakly-Supervised Action Localization by Generative Attention Modeling." CVPR (2020). 
   [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Weakly-Supervised_Action_Localization_by_Generative_Attention_Modeling_CVPR_2020_paper.pdf)]
