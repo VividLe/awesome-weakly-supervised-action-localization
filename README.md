@@ -10,6 +10,7 @@ Papers and Results of Temporal Action Localization
 
 |  Detector   |   Pub  |c|e| 0.1 | 0.2 | 0.3 |0.4  | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |avg  |   info   |
 | :---------: |:------:|-|-|:---:|:----|:----|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
+| DGAM  | CVPR20 |Y|A| 60.0|54.2 |46.8 |38.2 |28.8 |19.8 |11.4 |3.6  |0.4  | -   |    -     |
 | BaSNet-I3D  | AAAI20 |Y|A| 58.2|52.3 |44.6 |36.0 |27.0 |18.6 |10.4 |3.9  |0.5  | -   |    -     |
 | BaSNet-UNT  | AAAI20 |Y|A| 56.2|50.3 |42.8 |34.7 |25.1 |17.1 |9.3  |3.7  |0.5  | -   |    -     |
 |   WSBM      | ICCV19 |N|A| 60.4|56.0 |46.6 |37.5 |26.8 |17.6 |9.0  |3.3  |0.4  | -   |    -     |
@@ -75,6 +76,10 @@ Papers and Results of Temporal Action Localization
 
 
 ### Weakly Supervised Temporal Action Localization
+* **DGAM:** Baifeng Shi, Qi Dai, Yadong Mu, Jingdong Wang.<br />
+  "Weakly-Supervised Action Localization by Generative Attention Modeling." CVPR (2020). 
+  [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Weakly-Supervised_Action_Localization_by_Generative_Attention_Modeling_CVPR_2020_paper.pdf)]
+  [[code](https://github.com/bfshi/DGAM-Weakly-Supervised-Action-Localization)]
 * **BaSNet:** Pilhyeon Lee, Youngjung Uh, Hyeran Byun.<br />
   "Background Suppression Networks for Weakly-supervised Temporal Action Localization." AAAI (2020). 
   [[paper](https://arxiv.org/pdf/1911.09963.pdf)]
