@@ -10,6 +10,7 @@ Papers and Results of Temporal Action Localization
 
 |  Detector   |   Pub  |c|e| 0.1 | 0.2 | 0.3 |0.4  | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |avg  |   info   |
 | :---------: |:------:|-|-|:---:|:----|:----|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
+| EM-MIL  | ECCV20 |N|A|59.1 |52.7 |45.5 |36.8 |30.5 | 22.7 | 16.4 | - | - | -   | Use existing classifiation results |
 | ACL  | CVPR20 |N|A| - | - |46.9 |38.9 |30.1 |19.8 |10.4 | -  | -  | -   | Report unsupervised performance as well |
 | ActionBytes  | CVPR20 |N|A| - | - |43.0 |37.5 |29.0 | - |9.5 | -  | -  | -   | - |
 | DGAM  | CVPR20 |Y|A| 60.0|54.2 |46.8 |38.2 |28.8 |19.8 |11.4 |3.6  |0.4  | -   |    -     |
@@ -78,7 +79,9 @@ Papers and Results of Temporal Action Localization
 
 
 ### Weakly Supervised Temporal Action Localization
-Learning from trimmed videos.
+* **EM-MIL**Zhekun Luo, Devin Guillory, Baifeng Shi, Wei Ke, Fang Wan, Trevor Darrell, Huijuan Xu.<br />
+  "Weakly-Supervised Action Localization with Expectation-Maximization Multi-Instance Learning" ECCV 2020.
+  [[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740715.pdf)]
 * **A2CL-PT:** Kyle Min, Jason J. Corso.<br />
   "Adversarial Background-Aware Loss for Weakly-supervised Temporal Activity Localization." ECCV 2020. 
   [[paper](https://arxiv.org/pdf/2007.06643.pdf)]
@@ -168,9 +171,6 @@ Learning from trimmed videos.
 * **WSTAL**Ashraful Islam, Richard J. Radke.<br />
   "Weakly Supervised Temporal Action Localization Using Deep Metric Learning" Arxiv(2019)
   [[paper](https://arxiv.org/pdf/2001.07793.pdf)]
-* **EM-MIL**Zhekun Luo, Devin Guillory, Baifeng Shi, Wei Ke, Fang Wan, Trevor Darrell, Huijuan Xu.<br />
-  "Weakly-Supervised Action Localization with Expectation-Maximization Multi-Instance Learning"Arxiv(20-04)
-  [[paper](https://arxiv.org/pdf/2004.00163.pdf)]
 
 
 ### Expecting for paper
