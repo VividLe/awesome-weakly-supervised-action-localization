@@ -43,7 +43,6 @@ Papers and Results of Temporal Action Localization
 
 
 
-
 **Weakly Supervised Performance on ActivityNet v1.2 dataset.**
 |  Detector   |  Pub   |c| 0.5 | 0.55|0.60 | 0.65|0.70 |0.75 | 0.80|0.85 |0.90 |0.95 | avg |test |   info   |
 | :---------: |:------:|-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
