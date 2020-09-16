@@ -87,77 +87,77 @@ Learning from trimmed videos.
   "Learning Temporal Co-Attention Models for Unsupervised Video Action Localization." CVPR 2020, oral. 
   [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Gong_Learning_Temporal_Co-Attention_Models_for_Unsupervised_Video_Action_Localization_CVPR_2020_paper.pdf)]
 * **ActoinBytes:** Mihir Jain1, Amir Ghodrati, Cees G. M. Snoek.<br />
-  "ActionBytes: Learning from Trimmed Videos to Localize Actions." CVPR  (2020). 
+  "ActionBytes: Learning from Trimmed Videos to Localize Actions." CVPR 2020. 
   [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jain_ActionBytes_Learning_From_Trimmed_Videos_to_Localize_Actions_CVPR_2020_paper.pdf)]
 * **DGAM:** Baifeng Shi, Qi Dai, Yadong Mu, Jingdong Wang.<br />
-  "Weakly-Supervised Action Localization by Generative Attention Modeling." CVPR (2020). 
+  "Weakly-Supervised Action Localization by Generative Attention Modeling." CVPR 2020. 
   [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Weakly-Supervised_Action_Localization_by_Generative_Attention_Modeling_CVPR_2020_paper.pdf)]
   [[code](https://github.com/bfshi/DGAM-Weakly-Supervised-Action-Localization)]
 * **BaSNet:** Pilhyeon Lee, Youngjung Uh, Hyeran Byun.<br />
-  "Background Suppression Networks for Weakly-supervised Temporal Action Localization." AAAI (2020). 
+  "Background Suppression Networks for Weakly-supervised Temporal Action Localization." AAAI 2020. 
   [[paper](https://arxiv.org/pdf/1911.09963.pdf)]
   [[code](https://github.com/Pilhyeon/BaSNet-pytorch)]
 * **3C-Net:** Sanath Narayan, Hisham Cholakkal, Fahad Shabaz Khan, Ling Shao.<br />
-  "3C-Net : Category Count and Center Loss for Weakly-Supervised Action Localization." ICCV (2019). 
+  "3C-Net : Category Count and Center Loss for Weakly-Supervised Action Localization." ICCV 2019. 
   [[paper](https://arxiv.org/pdf/1908.08216.pdf)]
   [[code](https://github.com/naraysa/3c-net)]
 * **CMCS:** Daochang Liu, Tingting Jiang, Yizhou Wang.<br />
-  "Completeness Modeling and Context Separation for Weakly Supervised Temporal Action Localization." CVPR (2019). 
+  "Completeness Modeling and Context Separation for Weakly Supervised Temporal Action Localization." CVPR 2019. 
   [[paper](http://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Completeness_Modeling_and_Context_Separation_for_Weakly_Supervised_Temporal_Action_CVPR_2019_paper.pdf)]
   [[code](https://github.com/Finspire13/CMCS-Temporal-Action-Localization)]
 * **ASSG:** Chengwei Zhang, Yunlu Xu, Zhanzhan Cheng, Yi Niu, Shiliang, Pu Fei Wu, Futai Zou.<br />
-  "Adversarial Seeded Sequence Growing for Weakly-Supervised Temporal Action Localization" ACM MM (2019). 
+  "Adversarial Seeded Sequence Growing for Weakly-Supervised Temporal Action Localization" ACM MM 2019. 
   [[paper](https://arxiv.org/pdf/1908.02422.pdf)]
 * **AutoLoc:**Zheng Shou, Hang Gao, Lei Zhang, KazuyukiMiyazawa, Shih-Fu Chang.<br />
-  "AutoLoc Weakly-supervised Temporal Action Localization in Untrimmed Videos"ECCV（2018）.
+  "AutoLoc Weakly-supervised Temporal Action Localization in Untrimmed Videos"ECCV 2018.
   [[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Zheng_Shou_AutoLoc_Weakly-supervised_Temporal_ECCV_2018_paper.pdf)]
   [[code](https://github.com/zhengshou/AutoLoc)]
 * **CPMN:**Haisheng Su, Xu Zhao, Tianwei Lin.<br />
-  "Cascaded Pyramid Mining Network for Weakly Supervised Temporal Action Localization"ACCV(2018).
+  "Cascaded Pyramid Mining Network for Weakly Supervised Temporal Action Localization"ACCV 2018.
   [[paper](https://arxiv.org/pdf/1810.11794.pdf)]
 * **H&S:**Krishna Kumar Singh, Yong Jae Lee.<br />
-  "Hide-and-Seek: Forcing a Network to be Meticulous for Weakly-supervised Object and Action Localization"ICCV(2017).
+  "Hide-and-Seek: Forcing a Network to be Meticulous for Weakly-supervised Object and Action Localization"ICCV 2017.
   [[paper](https://arxiv.org/pdf/1704.04232.pdf)]
   [[code](https://github.com/goddoe/hide-and-seek)]
 * **LTSR:**Xiao-Yu Zhang, Haichao Shi, Changsheng Li, Kai Zheng, Xiaobin Zhu, Lixin Duan.<br />
-  "Learning Transferable Self-Attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision"AAAI(2019).
+  "Learning Transferable Self-Attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision"AAAI 2019.
   [[paper](https://www.aaai.org/ojs/index.php/AAAI/article/download/4958/4831)]
 * **MAAN:**Yuan Yuan, Yueming Lyu, Xi Shen, Ivor W. Tsang, Dit-Yan Yeung.<br />
-  "MARGINALIZED AVERAGE ATTENTIONAL NETWORK FOR WEAKLY-SUPERVISED LEARNING"ICLR(2019).
+  "MARGINALIZED AVERAGE ATTENTIONAL NETWORK FOR WEAKLY-SUPERVISED LEARNING"ICLR 2019.
   [[paper](https://arxiv.org/pdf/1905.08586.pdf)]
   [[code](https://github.com/yyuanad/MAAN)]
 * **S-O-C:**Jia-Xing Zhong, Nannan Li, Weijie Kong, Tao Zhang, Thomas H. Li, Ge Li.<br />
-  " Step-by-step Erasion, One-by-one Collection: A Weakly Supervised Temporal Action Detector"ACM MM(2018).
+  " Step-by-step Erasion, One-by-one Collection: A Weakly Supervised Temporal Action Detector"ACM MM 2018.
   [[paper](https://arxiv.org/pdf/1807.02929.pdf)]
 * **STARNet:**Yunlu Xu, Chengwei Zhang, Zhanzhan Cheng, Jianwen Xie, Yi Niu, Shiliang Pu, Fei Wu.<br />
-  "Segregated Temporal Assembly Recurrent Networks for Weakly Supervised Multiple Action Detection"AAAI(2019).
+  "Segregated Temporal Assembly Recurrent Networks for Weakly Supervised Multiple Action Detection"AAAI 2019.
   [[paper](https://www.aaai.org/ojs/index.php/AAAI/article/download/4939/4812)]
 * **TSM:**Tan Yu, Zhou Ren, Yuncheng Li, Enxu Yan, Ning Xu, Junsong Yuan.<br />
   "Temporal Structure Mining for Weakly Supervised Action Detection"ICCV(2019).
   [[paper](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yu_Temporal_Structure_Mining_for_Weakly_Supervised_Action_Detection_ICCV_2019_paper.pdf)]
 * **UntrimmedNets:**Limin Wang, Yuanjun Xiong, Dahua Lin, Luc Van Gool.<br />
-  "UntrimmedNets for Weakly Supervised Action Recognition and Detection"CVPR(2017).
+  "UntrimmedNets for Weakly Supervised Action Recognition and Detection"CVPR 2017.
   [[paper](https://wanglimin.github.io/papers/WangXLV_CVPR17.pdf)]
   [[code](https://github.com/wanglimin/UntrimmedNet)]
 * **WSBM:**Phuc Xuan Nguyen, Deva Ramanan, Charless C. Fowlkes.<br />
-  "Weakly-supervised Action Localization with Background Modeling"ICCV(2019).
+  "Weakly-supervised Action Localization with Background Modeling"ICCV 2019.
   [[paper](https://arxiv.org/pdf/1908.06552.pdf)]
 * **CleanNet:**Ziyi Liu, Le Wang1∗ Qilin Zhang, Zhanning Gao, Zhenxing Niu, Nanning Zheng, Gang Hua.<br />
-  "Weakly Supervised Temporal Action Localization through Contrast based Evaluation Networks"ICCV(2019).
+  "Weakly Supervised Temporal Action Localization through Contrast based Evaluation Networks"ICCV 2019.
   [[paper](https://qilin-zhang.github.io/_pages/pdfs/Weakly_Supervised_Temporal_Action_Localization_through_Contrast_based_Evaluation_Networks.pdf)]
 * **STPN**Phuc Nguyen, Ting Liu, Gautam Prasad, Bohyung Han.<br />
-  "Weakly Supervised Action Localization by Sparse Temporal Pooling Network"CVPR(2018).
+  "Weakly Supervised Action Localization by Sparse Temporal Pooling Network" CVPR 2018.
   [[paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Nguyen_Weakly_Supervised_Action_CVPR_2018_paper.pdf)]
   [[code](https://github.com/bellos1203/STPN)]
 * **W-TALC**Sujoy Paul, Sourya Roy, Amit K Roy-Chowdhury.<br />
-  "W-TALC: Weakly-supervised Temporal Activity Localization and Classification"ECCV(2018).
+  "W-TALC: Weakly-supervised Temporal Activity Localization and Classification" ECCV 2018.
   [[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Sujoy_Paul_W-TALC_Weakly-supervised_Temporal_ECCV_2018_paper.pdf)]
   [[code](https://github.com/sujoyp/wtalc-pytorch)]
 * **LPAT**Xudong, Lin Zheng, Shou Shih-Fu Chang.<br />
-  "LPAT: Learning to Predict Adaptive Threshold for Weakly-supervised Temporal Action Localization"Arxiv(2019)
+  "LPAT: Learning to Predict Adaptive Threshold for Weakly-supervised Temporal Action Localization" Arxiv(2019)
   [[paper](https://arxiv.org/pdf/1910.11285.pdf)]
 * **OCL:**Julien Schroeter, Kirill Sidorov, David Marshall.<br />
-  "Weakly-Supervised Temporal Localization via Occurrence Count Learning"Arxiv(2019)
+  "Weakly-Supervised Temporal Localization via Occurrence Count Learning" Arxiv(2019)
   [[paper](https://arxiv.org/pdf/1905.07293.pdf)]
 * **RefineLoc:**Humam Alwassel1, Alejandro Pardo1, Fabian Caba Heilbron,  Ali Thabet1 Bernard Ghanem1.<br />
   "RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization"Arxiv(2019)
@@ -166,7 +166,7 @@ Learning from trimmed videos.
   "Weakly Supervised Gaussian Networks for Action Detection" WACV(2020)
   [[paper](https://basurafernando.github.io/papers/wacv2020_wsgn.pdf)]
 * **WSTAL**Ashraful Islam, Richard J. Radke.<br />
-  "Weakly Supervised Temporal Action Localization Using Deep Metric Learning"Arxiv(2019)
+  "Weakly Supervised Temporal Action Localization Using Deep Metric Learning" Arxiv(2019)
   [[paper](https://arxiv.org/pdf/2001.07793.pdf)]
 * **EM-MIL**Zhekun Luo, Devin Guillory, Baifeng Shi, Wei Ke, Fang Wan, Trevor Darrell, Huijuan Xu.<br />
   "Weakly-Supervised Action Localization with Expectation-Maximization Multi-Instance Learning"Arxiv(20-04)
@@ -175,7 +175,7 @@ Learning from trimmed videos.
 
 ### Expecting for paper
 * **lvr:** Xingyu Liu, Joon-Young Lee, Hailin Jin.<br />
-  "Learning Video Representations from Correspondence Proposals." CVPR (2019 **oral**).
+  "Learning Video Representations from Correspondence Proposals." CVPR 2019 **oral**.
 
 
 ## Dataset
@@ -192,7 +192,7 @@ Learning from trimmed videos.
   [[project](http://www.thumos.info/)]
 
 * **COIN:** Yansong Tang, Dajun Ding, Yongming Rao, Yu Zheng, Danyang Zhang, Lili Zhao, Jiwen Lu, Jie Zhou.<br />
-  "COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis." CVPR (2019). 
+  "COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis." CVPR 2019. 
   [[paper](https://arxiv.org/pdf/1903.02874.pdf)]
   [[project](https://coin-dataset.github.io/)]
 
