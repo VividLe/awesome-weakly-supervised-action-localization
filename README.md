@@ -12,6 +12,7 @@ Papers and Results of Temporal Action Localization
 | :---------: |:------:|-|-|:---:|:----|:----|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
 | EM-MIL  | ECCV20 |N|A|59.1 |52.7 |45.5 |36.8 |30.5 | 22.7 | 16.4 | - | - | -   | Use existing classifiation results |
 | ACL  | CVPR20 |N|A| - | - |46.9 |38.9 |30.1 |19.8 |10.4 | -  | -  | -   | Report unsupervised performance as well |
+| WSTAL       | WACV20  |-| |62.3 |-    |46.8 |-    |29.6 |-    |9.7  |-    |-    |-    |    -     |
 | ActionBytes  | CVPR20 |N|A| - | - |43.0 |37.5 |29.0 | - |9.5 | -  | -  | -   | - |
 | DGAM  | CVPR20 |Y|A| 60.0|54.2 |46.8 |38.2 |28.8 |19.8 |11.4 |3.6  |0.4  | -   |    -     |
 | BaSNet-I3D  | AAAI20 |Y|A| 58.2|52.3 |44.6 |36.0 |27.0 |18.6 |10.4 |3.9  |0.5  | -   |    -     |
@@ -34,8 +35,6 @@ Papers and Results of Temporal Action Localization
 |  S-O-C      | ACM18  |N|T|45.8 |39.0 |31.1 |22.5 |15.9 |-    |-    |-    |-    |-    |    -     |
 |UntrimmedNets| CVPR17 |Y|T|44.4 |37.7 |28.2 |21.1 |13.7 |-    |-    |-    |-    |-    |    -     |
 |  H&S        | ICCV17 |Y|T|36.44|27.84|19.49|12.66|6.84 |-    |-    |-    |-    |-    |    -     |
-|EM-LIM | arXiv  |-| |59.1 |52.7 |45.5 |36.8 |30.5 |22.7 |16.4  |-    |-    |- |    -     |
-| WSTAL       | arXiv  |-| |62.3 |-    |46.8 |-    |29.6 |-    |9.7  |-    |-    |-    |    -     |
 |LPAT-I3D+TEM | arXiv  |-| |-    |-    |46.9 |37.4 |28.0 |16.6 |9.2  |-    |-    |27.6 |    -     |
 | LPAT-I3D    | arXiv  |-| |-    |-    |46.7 |37.5 |27.9 |17.6 |9.2  |-    |-    |27.6 |    -     |
 | LPAT-U      | arXiv  |-| |-    |-    |39.9 |31.5 |22.6 |14.2 |7.9  |-    |-    |27.6 |    -     |
@@ -89,6 +88,10 @@ Papers and Results of Temporal Action Localization
 * **ACL:** Guoqiang Gong, Xinghan Wang, Yadong Mu, Qi Tian.<br />
   "Learning Temporal Co-Attention Models for Unsupervised Video Action Localization." CVPR 2020, oral. 
   [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Gong_Learning_Temporal_Co-Attention_Models_for_Unsupervised_Video_Action_Localization_CVPR_2020_paper.pdf)]
+* **WSTAL**Ashraful Islam, Richard J. Radke.<br />
+  "Weakly Supervised Temporal Action Localization Using Deep Metric Learning" WACV 2020.
+  [[paper](https://arxiv.org/pdf/2001.07793.pdf)]
+  [[code](https://github.com/asrafulashiq/wsad)]
 * **ActoinBytes:** Mihir Jain1, Amir Ghodrati, Cees G. M. Snoek.<br />
   "ActionBytes: Learning from Trimmed Videos to Localize Actions." CVPR 2020. 
   [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Jain_ActionBytes_Learning_From_Trimmed_Videos_to_Localize_Actions_CVPR_2020_paper.pdf)]
@@ -125,6 +128,8 @@ Papers and Results of Temporal Action Localization
 * **LTSR:**Xiao-Yu Zhang, Haichao Shi, Changsheng Li, Kai Zheng, Xiaobin Zhu, Lixin Duan.<br />
   "Learning Transferable Self-Attentive Representations for Action Recognition in Untrimmed Videos with Weak Supervision"AAAI 2019.
   [[paper](https://www.aaai.org/ojs/index.php/AAAI/article/download/4958/4831)]
+* **WSGN:**Basura Fernando, Cheston Tan Yin Chet.<br />
+  "Weakly Supervised Gaussian Networks for Action Detection" WACV(2020)
 * **MAAN:**Yuan Yuan, Yueming Lyu, Xi Shen, Ivor W. Tsang, Dit-Yan Yeung.<br />
   "MARGINALIZED AVERAGE ATTENTIONAL NETWORK FOR WEAKLY-SUPERVISED LEARNING"ICLR 2019.
   [[paper](https://arxiv.org/pdf/1905.08586.pdf)]
@@ -157,20 +162,12 @@ Papers and Results of Temporal Action Localization
   [[paper](http://openaccess.thecvf.com/content_ECCV_2018/papers/Sujoy_Paul_W-TALC_Weakly-supervised_Temporal_ECCV_2018_paper.pdf)]
   [[code](https://github.com/sujoyp/wtalc-pytorch)]
 * **LPAT**Xudong, Lin Zheng, Shou Shih-Fu Chang.<br />
-  "LPAT: Learning to Predict Adaptive Threshold for Weakly-supervised Temporal Action Localization" Arxiv(2019)
+  "LPAT: Learning to Predict Adaptive Threshold for Weakly-supervised Temporal Action Localization" arXiv 2019.
   [[paper](https://arxiv.org/pdf/1910.11285.pdf)]
-* **OCL:**Julien Schroeter, Kirill Sidorov, David Marshall.<br />
-  "Weakly-Supervised Temporal Localization via Occurrence Count Learning" Arxiv(2019)
-  [[paper](https://arxiv.org/pdf/1905.07293.pdf)]
 * **RefineLoc:**Humam Alwassel1, Alejandro Pardo1, Fabian Caba Heilbron,  Ali Thabet1 Bernard Ghanem1.<br />
   "RefineLoc: Iterative Refinement for Weakly-Supervised Action Localization"Arxiv(2019)
   [[paper](https://arxiv.org/pdf/1904.00227.pdf)]
-* **WSGN:**Basura Fernando, Cheston Tan Yin Chet.<br />
-  "Weakly Supervised Gaussian Networks for Action Detection" WACV(2020)
   [[paper](https://basurafernando.github.io/papers/wacv2020_wsgn.pdf)]
-* **WSTAL**Ashraful Islam, Richard J. Radke.<br />
-  "Weakly Supervised Temporal Action Localization Using Deep Metric Learning" Arxiv(2019)
-  [[paper](https://arxiv.org/pdf/2001.07793.pdf)]
 
 
 ### Expecting for paper

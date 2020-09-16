@@ -1,4 +1,11 @@
 # Action Localization Benchmarks
+
+### Learning from action count supervision
+* **OCL:**Julien Schroeter, Kirill Sidorov, David Marshall.<br />
+  "Weakly-Supervised Temporal Localization via Occurrence Count Learning" ICML 2019.
+  [[paper](https://arxiv.org/pdf/1905.07293.pdf)]
+  [[code](https://github.com/SchroeterJulien/ICML-2019-Weakly-Supervised-Temporal-Localization-via-Occurrence-Count-Learning)]
+
 ### Action Segment, Transformer
 
 * Action Modifiers :Hazel Doughty, Ivan Laptev, Walterio Mayol-Cuevas,  Dima Damen.<br />
