@@ -16,6 +16,7 @@ Papers and Results of Temporal Action Localization
 | WSTAL       | WACV20  |-| |62.3 |-    |46.8 |-    |29.6 |-    |9.7  |-    |-    |-    |    -     |
 | ActionBytes  | CVPR20 |N|A| - | - |43.0 |37.5 |29.0 | - |9.5 | -  | -  | -   | - |
 | DGAM  | CVPR20 |Y|A| 60.0|54.2 |46.8 |38.2 |28.8 |19.8 |11.4 |3.6  |0.4  | -   |    -     |
+| TSCN  | ECCV20 |Y|A| 63.4|57.6 |47.8 |37.7 |28.7 |19.4 |10.2 |3.9  |0.7  | -   |    -     |
 | BaSNet-I3D  | AAAI20 |Y|A| 58.2|52.3 |44.6 |36.0 |27.0 |18.6 |10.4 |3.9  |0.5  | -   |    -     |
 | BaSNet-UNT  | AAAI20 |Y|A| 56.2|50.3 |42.8 |34.7 |25.1 |17.1 |9.3  |3.7  |0.5  | -   |    -     |
 |   WSBM      | ICCV19 |N|A| 60.4|56.0 |46.6 |37.5 |26.8 |17.6 |9.0  |3.3  |0.4  | -   |    -     |
@@ -99,6 +100,9 @@ Papers and Results of Temporal Action Localization
   "Weakly-Supervised Action Localization by Generative Attention Modeling." CVPR 2020. 
   [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Weakly-Supervised_Action_Localization_by_Generative_Attention_Modeling_CVPR_2020_paper.pdf)]
   [[code](https://github.com/bfshi/DGAM-Weakly-Supervised-Action-Localization)]
+* **TSCN:** Zhai, Yuanhao and Wang, Le and Tang, Wei and Zhang, Qilin and Yuan, Junsong and Hua, Gang.<br />
+  "Two-Stream Consensus Network for Weakly-Supervised Temporal Action Localization: Supplementary Material." ECCV 2020. 
+  [[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123510035.pdf)]
 * **BaSNet:** Pilhyeon Lee, Youngjung Uh, Hyeran Byun.<br />
   "Background Suppression Networks for Weakly-supervised Temporal Action Localization." AAAI 2020. 
   [[paper](https://arxiv.org/pdf/1911.09963.pdf)]
