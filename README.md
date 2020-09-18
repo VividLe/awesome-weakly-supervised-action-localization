@@ -43,8 +43,7 @@ Papers and Results of Temporal Action Localization
 |RefineLoc-I3D| arXiv  |-|T|-    |-    |40.8 |-    |23.1 |-    |5.3  |-    |-    |-    |    -     |
 |RefineLoc-TSN| arXiv  |-|T|-    |-    |36.1 |-    |22.6 |-    |5.8  |-    |-    |-    |    -     |
 
-37.4 23.1 2.0
-20.3
+
 
 **Weakly Supervised Performance on ActivityNet v1.2 dataset.**
 |  Detector   |  Pub   |c| 0.5 | 0.55|0.60 | 0.65|0.70 |0.75 | 0.80|0.85 |0.90 |0.95 | avg |test |   info   |
@@ -55,6 +54,7 @@ Papers and Results of Temporal Action Localization
 | 3C-Net      | ICCV19 |Y|35.4 |   - | -   |  -  | -   |22.9 |  -  | -   | -   | 8.5 | 21.1|   - |     -    |
 | TSM         | ICCV19 |N|28.3 |26.0 |23.6 |21.2 | 18.9|17.0 |14.0 |11.1 |7.5  | 3.5 | -   |   - |     -    |
 | CleanNet    | ICCV19 |N|37.1 |33.4 |29.9 |26.7 | 23.4|20.3 |17.2 |13.9 |9.2  | 5.0 | 21.6|   - |     -    |
+| EM-MIL      | ECCV20 |N|37.4 |-    |-    |-    | 23.1|-    |-    |-    |2.0  |  -  | 20.3|   - |     -    |
 | W-TALC      | ECCV18 |Y|37.0 |-    |-    |-    | 14.6|-    |-    |-    |-    | -   | 18.0|   - |     -    |
 | AutoLoc     | ECCV18 |Y|27.3 |24.9 |22.5 |19.9 | 17.5|15.1 |13.0 |10.0 |6.8  | 3.3 | 16.0| -   |     -    |
 |RefineLoc-I3D| arXiv  |-|38.7 |-    |-    |-    | -   |22.6 |-    |-    |-    | 5.5 | 23.2| -   |     -    |
