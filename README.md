@@ -10,8 +10,11 @@ Papers and Results of Temporal Action Localization
 
 |  Detector   |   Pub  |c|e| 0.1 | 0.2 | 0.3 |0.4  | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |avg  |   info   |
 | :---------: |:------:|-|-|:---:|:----|:----|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
+| D2-Net  | arXiv-20-12-11 |N|A|65.6 |60.0 |52.1 |43.3 |35.9 | - | - | - | - | -   | The same author with 3C-Net |
+| Liu at al  | AAAI21 |N|A| - | - |51.4 |42.7 |32.4 | 22.0 | 11.7 | - | - | -   | - |
 | EM-MIL  | ECCV20 |N|A|59.1 |52.7 |45.5 |36.8 |30.5 | 22.7 | 16.4 | - | - | -   | Use existing classifiation results |
 | ACL  | CVPR20 |N|A| - | - |46.9 |38.9 |30.1 |19.8 |10.4 | -  | -  | -   | Report unsupervised performance as well |
+| Liu et al.  | AAAI21 |N|A| 61.7 | 58.0 |50.8 | 41.7 |29.6 |20.1 |10.7 | 4.3 | 0.5 | -   | - |
 | A2CL-PT  | ECCV20 |N|A| 61.2 | 56.1 |48.1 | 39.0 |30.1 |19.2 |10.6 | 4.8 | 1.0 | -   | Report unsupervised performance as well |
 | WSTAL       | WACV20  |-| |62.3 |-    |46.8 |-    |29.6 |-    |9.7  |-    |-    |-    |    -     |
 | ActionBytes  | CVPR20 |N|A| - | - |43.0 |37.5 |29.0 | - |9.5 | -  | -  | -   | - |
@@ -43,13 +46,14 @@ Papers and Results of Temporal Action Localization
 |RefineLoc-I3D| arXiv  |-|T|-    |-    |40.8 |-    |23.1 |-    |5.3  |-    |-    |-    |    -     |
 |RefineLoc-TSN| arXiv  |-|T|-    |-    |36.1 |-    |22.6 |-    |5.8  |-    |-    |-    |    -     |
 
-
-
 **Weakly Supervised Performance on ActivityNet v1.2 dataset.**
+
 |  Detector   |  Pub   |c| 0.5 | 0.55|0.60 | 0.65|0.70 |0.75 | 0.80|0.85 |0.90 |0.95 | avg |test |   info   |
 | :---------: |:------:|-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
+| D2-Net | arXiv-20-12-11 |N|42.3 |   - | -   |  -  | -   |25.5 |  -  | -   | -   | 5.8 | 26.0|   - |     -    |
 | BaSNet-I3D  | AAAI20 |Y|38.5 |   - | -   |  -  | -   |24.2 |  -  | -   | -   | 5.6 | 24.3|   - |     -    |
 | TSCN        | ECCV20 |N|37.6 |-    |-    |-    | -   |23.7 |-    |-    |-    | 5.7 | 23.6|   - |     -    |
+| Liu at al.        | AAAI21 |N|35.1 |-    |-    |-    | -   |23.7 |-    |-    |-    | 5.6 | 23.2|   - |     -    |
 | CMCS        | CVPR19 |Y|36.8 |-    |-    |-    | -   |22.0 |-    |-    |-    | 5.6 | 22.4|   - |     -    |
 | 3C-Net      | ICCV19 |Y|35.4 |   - | -   |  -  | -   |22.9 |  -  | -   | -   | 8.5 | 21.1|   - |     -    |
 | TSM         | ICCV19 |N|28.3 |26.0 |23.6 |21.2 | 18.9|17.0 |14.0 |11.1 |7.5  | 3.5 | -   |   - |     -    |
@@ -81,8 +85,16 @@ Papers and Results of Temporal Action Localization
 | S-O-C       | ACM18  |N|27.3 |14.7 |2.9  |15.6 |
 
 
-
 ### Weakly Supervised Temporal Action Localization
+* **Liu at al.**Ziyi Liu, Le Wang, Qilin Zhang, Wei Tang, Junsong Yuan, Nanning Zheng, Gang Hua.<br />
+  "ACSNet : Action-Context Separation Network for Weakly Supervised Temporal Action Localization" AAAI 2021.
+  [[paper](http://gr.xjtu.edu.cn/web/lewang)]
+* **Liu at al.**Ziyi Liu, Le Wang, Wei Tang, Junsong Yuan, Nanning Zheng, Gang Hua.<br />
+  "Weakly Supervised Temporal Action Localization Through Learning Explicit Subspaces for Action and Context" AAAI 2021.
+  [[paper](http://gr.xjtu.edu.cn/web/lewang)]
+* **D2-Net**Sanath Narayan, Hisham Cholakkal, Munawar Hayat, Fahad Shahbaz Khan, Ming-Hsuan Yang, Ling Shao.<br />
+  "D2-Net: Weakly-Supervised Action Localization via Discriminative Embeddings and Denoised Activations" arXiv:2012.06440.
+  [[paper](https://arxiv.org/pdf/2012.06440.pdf)]
 * **EM-MIL**Zhekun Luo, Devin Guillory, Baifeng Shi, Wei Ke, Fang Wan, Trevor Darrell, Huijuan Xu.<br />
   "Weakly-Supervised Action Localization with Expectation-Maximization Multi-Instance Learning" ECCV 2020.
   [[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740715.pdf)]
