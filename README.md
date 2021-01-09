@@ -11,6 +11,7 @@ Papers and Results of Temporal Action Localization
 |  Detector   |   Pub  |c|e| 0.1 | 0.2 | 0.3 |0.4  | 0.5 | 0.6 | 0.7 | 0.8 | 0.9 |avg  |   info   |
 | :---------: |:------:|-|-|:---:|:----|:----|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
 | D2-Net  | arXiv-20-12-11 |N|A|65.6 |60.0 |52.1 |43.3 |35.9 | - | - | - | - | -   | The same author with 3C-Net |
+| Lee et al  | AAAI21 |Y|A|67.5 |61.2 |52.3 |43.4 |33.7 | 22.9 | 12.1 | - | - | -   | The same author with BaS-Net |
 | HAM-Net  | AAAI21 |N|A|65.9 |59.6 |52.2 |43.1 |32.6 | 21.9 | 12.5 | - | - | -   | - |
 | ACSNet  | AAAI21 |N|A| - | - |51.4 |42.7 |32.4 | 22.0 | 11.7 | - | - | -   | - |
 | EM-MIL  | ECCV20 |N|A|59.1 |52.7 |45.5 |36.8 |30.5 | 22.7 | 16.4 | - | - | -   | Use existing classifiation results |
@@ -47,12 +48,14 @@ Papers and Results of Temporal Action Localization
 |RefineLoc-I3D| arXiv  |-|T|-    |-    |40.8 |-    |23.1 |-    |5.3  |-    |-    |-    |    -     |
 |RefineLoc-TSN| arXiv  |-|T|-    |-    |36.1 |-    |22.6 |-    |5.8  |-    |-    |-    |    -     |
 
+
 **Weakly Supervised Performance on ActivityNet v1.2 dataset.**
 
 |  Detector   |  Pub   |c| 0.5 | 0.55|0.60 | 0.65|0.70 |0.75 | 0.80|0.85 |0.90 |0.95 | avg |test |   info   |
 | :---------: |:------:|-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:| :------: |
 | D2-Net | arXiv-20-12-11 |N|42.3 |   - | -   |  -  | -   |25.5 |  -  | -   | -   | 5.8 | 26.0|   - |     -    |
 | ACSNet | AAAI21 |N|40.1 |   - | -   |  -  | -   |26.1 |  -  | -   | -   | 6.8 | 26.0|   - |     -    |
+| Lee et al | AAAI21 |N|41.2 |   - | -   |  -  | -   |25.6 |  -  | -   | -   | 6.0 | 25.9|   - |     -    |
 | Liu at al.        | AAAI21 |N|39.2 |-    |-    |-    | -   |25.6 |-    |-    |-    | 6.8 | 25.5|   - |     -    |
 | HAM-Net | AAAI21 |N|41.0 |   - | -   |  -  | -   |24.8 |  -  | -   | -   | 5.3 | 25.1|   - |     -    |
 | BaSNet  | AAAI20 |Y|38.5 |   - | -   |  -  | -   |24.2 |  -  | -   | -   | 5.6 | 24.3|   - |     -    |
@@ -75,6 +78,7 @@ Papers and Results of Temporal Action Localization
 |  Detector   |  Pub   |c| 0.5 |0.75 |0.95 |avg  |
 | :---------: |:------:|-|:---:|:---:|:---:|:---:|
 |   ACSNet    | AAAI21 |N|36.3 |24.2 |5.8  |23.9 |
+|   Lee et al.| AAAI21 |Y|37.0 |23.9 |5.7  |23.7 |
 |   Liu et al.| AAAI21 |N|35.1 |23.7 |5.6  |23.2 |
 | BaSNet-I3D  | AAAI20 |Y|34.5 |22.5 |4.9  |22.2 |
 | TSCN        | ECCV20 |N|35.3 |21.4 |5.3  |21.7 |
@@ -91,20 +95,24 @@ Papers and Results of Temporal Action Localization
 
 
 ### Weakly Supervised Temporal Action Localization
-* **D2-Net**Sanath Narayan, Hisham Cholakkal, Munawar Hayat, Fahad Shahbaz Khan, Ming-Hsuan Yang, Ling Shao.<br />
+* **D2-Net:** Sanath Narayan, Hisham Cholakkal, Munawar Hayat, Fahad Shahbaz Khan, Ming-Hsuan Yang, Ling Shao.<br />
   "D2-Net: Weakly-Supervised Action Localization via Discriminative Embeddings and Denoised Activations" arXiv:2012.06440.
   [[paper](https://arxiv.org/pdf/2012.06440.pdf)]
-* **HAM-Net**Ashraful Islam, Chengjiang Long , Richard J. Radke.<br />
+* **Lee et al:** Pilhyeon Lee, Jinglu Wang, Yan Lu, Hyeran Byun.<br />
+  "Background Modeling via Uncertainty Estimation for Weakly-supervised Action Localization" AAAI 2021.
+  [[paper](https://arxiv.org/pdf/2006.07006.pdf)]
+  [[code](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)]
+* **HAM-Net:** Ashraful Islam, Chengjiang Long , Richard J. Radke.<br />
   "A Hybrid Attention Mechanism for Weakly-Supervised Temporal Action Localization" AAAI 2021.
   [[paper](https://arxiv.org/pdf/2101.00545.pdf)]
   [[code](https://github.com/asrafulashiq/hamnet)]
-* **Liu at al.**Ziyi Liu, Le Wang, Qilin Zhang, Wei Tang, Junsong Yuan, Nanning Zheng, Gang Hua.<br />
+* **Liu et al.:** Ziyi Liu, Le Wang, Qilin Zhang, Wei Tang, Junsong Yuan, Nanning Zheng, Gang Hua.<br />
   "ACSNet : Action-Context Separation Network for Weakly Supervised Temporal Action Localization" AAAI 2021.
   [[paper](http://gr.xjtu.edu.cn/web/lewang)]
-* **Liu at al.**Ziyi Liu, Le Wang, Wei Tang, Junsong Yuan, Nanning Zheng, Gang Hua.<br />
+* **Liu at al.:** Ziyi Liu, Le Wang, Wei Tang, Junsong Yuan, Nanning Zheng, Gang Hua.<br />
   "Weakly Supervised Temporal Action Localization Through Learning Explicit Subspaces for Action and Context" AAAI 2021.
   [[paper](http://gr.xjtu.edu.cn/web/lewang)]
-* **EM-MIL**Zhekun Luo, Devin Guillory, Baifeng Shi, Wei Ke, Fang Wan, Trevor Darrell, Huijuan Xu.<br />
+* **EM-MIL:** Zhekun Luo, Devin Guillory, Baifeng Shi, Wei Ke, Fang Wan, Trevor Darrell, Huijuan Xu.<br />
   "Weakly-Supervised Action Localization with Expectation-Maximization Multi-Instance Learning" ECCV 2020.
   [[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740715.pdf)]
 * **A2CL-PT:** Kyle Min, Jason J. Corso.<br />
