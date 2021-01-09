@@ -95,6 +95,10 @@ Papers and Results of Temporal Action Localization
   [[paper](https://arxiv.org/pdf/1908.09442.pdf)]
   [[code](https://github.com/PaddlePaddle/models/blob/develop/PaddleCV/PaddleVideo/models/ctcn/README.md)]
 
+* **PGC-TAL:** Rui Su, Dong Xu, Lu Sheng, Wangli Ouyang.<br />
+  "PCG-TAL: Progressive Cross-granularity Cooperation for Temporal Action Localization." TIP 2020.
+  [[paper](https://ieeexplore.ieee.org/document/9298475)]]
+
 * **BMN:** Tianwei Lin, Xiao Liu, Xin Li, Errui Ding, Shilei Wen.<br />
   "BMN : Boundary-Matching Network for Temporal Action Proposal Generation." ICCV (2019). 
   [[paper](https://arxiv.org/pdf/1907.09702.pdf)]
