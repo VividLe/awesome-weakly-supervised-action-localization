@@ -99,7 +99,7 @@ Papers and Results of Temporal Action Localization
   "D2-Net: Weakly-Supervised Action Localization via Discriminative Embeddings and Denoised Activations" arXiv:2012.06440.
   [[paper](https://arxiv.org/pdf/2012.06440.pdf)]
 * **Lee et al:** Pilhyeon Lee, Jinglu Wang, Yan Lu, Hyeran Byun.<br />
-  "Background Modeling via Uncertainty Estimation for Weakly-supervised Action Localization" AAAI 2021.
+  "Weakly-supervised Temporal Action Localization by Uncertainty Modeling" AAAI 2021.
   [[paper](https://arxiv.org/pdf/2006.07006.pdf)]
   [[code](https://github.com/Pilhyeon/WTAL-Uncertainty-Modeling)]
 * **HAM-Net:** Ashraful Islam, Chengjiang Long , Richard J. Radke.<br />
