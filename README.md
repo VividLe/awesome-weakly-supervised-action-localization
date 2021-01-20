@@ -134,7 +134,7 @@ Papers and Results of Temporal Action Localization
   [[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Weakly-Supervised_Action_Localization_by_Generative_Attention_Modeling_CVPR_2020_paper.pdf)]
   [[code](https://github.com/bfshi/DGAM-Weakly-Supervised-Action-Localization)]
 * **TSCN:** Zhai, Yuanhao and Wang, Le and Tang, Wei and Zhang, Qilin and Yuan, Junsong and Hua, Gang.<br />
-  "Two-Stream Consensus Network for Weakly-Supervised Temporal Action Localization: Supplementary Material." ECCV 2020. 
+  "Two-Stream Consensus Network for Weakly-Supervised Temporal Action Localization." ECCV 2020. 
   [[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123510035.pdf)]
 * **BaSNet:** Pilhyeon Lee, Youngjung Uh, Hyeran Byun.<br />
   "Background Suppression Networks for Weakly-supervised Temporal Action Localization." AAAI 2020. 
