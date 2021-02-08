@@ -12,6 +12,7 @@ Papers and Results of Temporal Action Localization
 | :---------: | :-----: |:-------:|:-------:|:-------:|:-------:|:-------:| :------: | :--------:  | :--:      |
 |     TGM     |    -  	|    -  	|    -  	|    -  	|   53.5 	|    -  	|    -     |      Y      |     -     |
 |   C-TCN     |   72.2 	|   71.4 	|   68.0 	|   62.3 	|   52.1 	|    -   	|    -   	 |      Y      |     -     |
+|   RTD-Net     |    -   	|    -  	|   68.3 	|   62.3  	|   51.9 	|   38.8   	|    23.7 	 |      Y      |  based on P-GCN    |
 |   PGC-TAL     |   71.2  	|   68.9 	|   65.1 	|   59.5 	|   51.2 	|    -   	|    -   	 |      Y      |  based on P-GCN    |
 |    DPP      |   69.5 	|   67.8 	|   63.6 	|   57.8 	|   49.1 	|    -   	|    -   	 |      Y      |     -     |
 |    PGCN     |   69.5 	|   67.8 	|   63.6 	|   57.8 	|   49.1 	|    -   	|    -   	 |      Y      |     -     |
@@ -54,11 +55,12 @@ Papers and Results of Temporal Action Localization
 - The left half is score on ActivityNet v1.3 validation dataset. The right half is score on ActivityNet v1.3 testing dataset. 
 - `Deep Learning`: deep learning related method.
 
-|  Detector   |   @50   |    @75    |    @95    |    @Avg   |    @50    |    @75    |    @95    |    @Avg   |Deep Learning|Speed  |
+|  Detector   |   0.50  |    0.75   |    0.95   |    @Avg   |   0.50    |   0.75    |   0.95    |    @Avg   |Deep Learning|Speed  |
 | :---------: | :-----: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :------:  | :--------:  | :--:  |
 |     BMN     |	50.07 	|	   34.78 	|	8.29 	    |	33.85 	  |	 -      	|	 -  	    |	 -       	|	36.42	    |      Y      | -     |
 |    GTAN     |	52.61 	|	   34.14 	|	8.91 	    |	34.31 	  |	 -      	|	 -  	    |	 -  	    |	35.54	    |      Y      | -     |
 |    PGCN     |	48.26 	|	  33.16 	|	3.27 	    |	31.11   	|	 -      	|	 -  	    |	 -      	|	  -  	    |      Y      | -     |
+|   RTD-Net   |	46.43 	|	  30.45  	|	8.64      |	30.46   	|	 -      	|	 -  	    |	 -      	|	  -  	    |      Y      | -     |
 |   BSN_ori   |	46.45 	|	  29.96 	|	8.02    	|	30.03   	|	 -      	|	 -      	|	 -      	|	32.84    	|      Y      | -     |
 |   BSN_new   |	52.50 	|	  33.53 	|	8.85 	    |	33.72   	|	 -      	|	 -      	|	 -      	|	34.42	    |      Y      | -     |
 |    C-TCN    |	 47.6 	|  	31.9  	|	6.2      	|	 31.1   	|	 -      	|	 -  	    |	 -      	|	  -     	|      Y      | -     |
@@ -84,6 +86,10 @@ Papers and Results of Temporal Action Localization
   "Temporal Gaussian Mixture Layer for Videos." ICML (2019). 
   [[paper](https://arxiv.org/pdf/1803.06316.pdf)]
   [[code](https://github.com/piergiaj/tgm-icml19)]
+  
+* **RTD-Net:** Jing Tan, Jiaqi Tang, Limin Wang, Gangshan Wu.<br />
+  "Relaxed Transformer Decoders for Direct Action Prop." arXiv 2102.01894. 
+  [[paper](https://arxiv.org/pdf/2102.01894.pdf)]
 
 * **DPP:** Luxuan Li, Tao Kong, Fuchun Sun, Huaping Liu.<br />
   "Deep Point-wise Prediction for Action Temporal Proposal." ArXiv 1909.07725. 
