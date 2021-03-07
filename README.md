@@ -15,9 +15,9 @@ Papers and Results of Temporal Action Localization
 | HAM-Net  | AAAI21 |N|A|65.9 |59.6 |52.2 |43.1 |32.6 | 21.9 | 12.5 | - | - | -   | - |
 | ACSNet  | AAAI21 |N|A| - | - |51.4 |42.7 |32.4 | 22.0 | 11.7 | - | - | -   | - |
 | EM-MIL  | ECCV20 |N|A|59.1 |52.7 |45.5 |36.8 |30.5 | 22.7 | 16.4 | - | - | -   | Use existing classifiation results |
+| A2CL-PT  | ECCV20 |Y|A| 61.2 | 56.1 |48.1 | 39.0 |30.1 |19.2 |10.6 | 4.8 | 1.0 | 30.0 | Report unsupervised performance as well |
 | ACL  | CVPR20 |N|A| - | - |46.9 |38.9 |30.1 |19.8 |10.4 | -  | -  | -   | Report unsupervised performance as well |
 | Liu et al.  | AAAI21 |N|A| 61.7 | 58.0 |50.8 | 41.7 |29.6 |20.1 |10.7 | 4.3 | 0.5 | -   | - |
-| A2CL-PT  | ECCV20 |N|A| 61.2 | 56.1 |48.1 | 39.0 |30.1 |19.2 |10.6 | 4.8 | 1.0 | -   | Report unsupervised performance as well |
 | WSTAL       | WACV20  |-| |62.3 |-    |46.8 |-    |29.6 |-    |9.7  |-    |-    |-    |    -     |
 | ActionBytes  | CVPR20 |N|A| - | - |43.0 |37.5 |29.0 | - |9.5 | -  | -  | -   | - |
 | DGAM  | CVPR20 |Y|A| 60.0|54.2 |46.8 |38.2 |28.8 |19.8 |11.4 |3.6  |0.4  | -   |    -     |
@@ -34,7 +34,7 @@ Papers and Results of Temporal Action Localization
 |  STARNet    | AAAI19 |N|A|68.8 |60.0 |48.7 |34.7 |23.0 |-    |-    |  -  |  -  |-    |    -     |
 |  W-TALC     | ECCV18 |Y|I|55.2 |49.6 |40.1 |31.1 |22.8 |-    |-    |  -  |  -  |7.6  |    -     |
 |  AutoLoc    | ECCV18 |Y|T|-    |-    |35.8 |29.0 |21.2 |13.4 |5.8  |  -  |  -  |-    |    -     |
-|  MAAN       | ICLR19 |Y|A|59.8 |50.8 |41.1 |30.6 |20.3 |12.0 |6.9  |2.6  |0.2  |94.1 |    -     |
+|  MAAN       | ICLR19 |Y|A|59.8 |50.8 |41.1 |30.6 |20.3 |12.0 |6.9  |2.6  |0.2  |24.9 |    -     |
 |  LTSR       | AAAI19 |N|T|55.9 |46.9 |38.3 |28.1 |18.6 |11.0 |5.59 |2.19 |0.29 |-    |    -     |
 | WSGN        | WACV20 |-|T|51.1 |44.4 |34.9 |26.3 |18.1 |11.6 |6.5  |-    |-    |-    |    -     |
 |  STPN       | CVPR18 |I|A|52.0 |44.7 |35.5 |25.8 |16.9 |9.9  |4.3  |1.2  |0.1  |-    |    -     |
@@ -80,6 +80,7 @@ Papers and Results of Temporal Action Localization
 |   ACSNet    | AAAI21 |N|36.3 |24.2 |5.8  |23.9 |
 |   Lee et al.| AAAI21 |Y|37.0 |23.9 |5.7  |23.7 |
 |   Liu et al.| AAAI21 |N|35.1 |23.7 |5.6  |23.2 |
+| A2CL-PT     | ECCV20 |Y|36.8 |22.0 |5.2  |22.5 |
 | BaSNet-I3D  | AAAI20 |Y|34.5 |22.5 |4.9  |22.2 |
 | TSCN        | ECCV20 |N|35.3 |21.4 |5.3  |21.7 |
 | WSBM        | ICCV19 |N|36.4 |19.2 | 2.9 |-    |
@@ -117,7 +118,7 @@ Papers and Results of Temporal Action Localization
   [[paper](http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123740715.pdf)]
 * **A2CL-PT:** Kyle Min, Jason J. Corso.<br />
   "Adversarial Background-Aware Loss for Weakly-supervised Temporal Activity Localization." ECCV 2020. 
-  [[paper](https://arxiv.org/pdf/2007.06643.pdf)]
+  [[paper](https://link.springer.com/chapter/10.1007%2F978-3-030-58568-6_17)]
   [[code](https://github.com/MichiganCOG/A2CL-PT)]
 * **ACL:** Guoqiang Gong, Xinghan Wang, Yadong Mu, Qi Tian.<br />
   "Learning Temporal Co-Attention Models for Unsupervised Video Action Localization." CVPR 2020, oral. 
@@ -229,4 +230,3 @@ Papers and Results of Temporal Action Localization
   "COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis." CVPR 2019. 
   [[paper](https://arxiv.org/pdf/1903.02874.pdf)]
   [[project](https://coin-dataset.github.io/)]
-
